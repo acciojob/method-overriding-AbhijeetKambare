@@ -12,6 +12,9 @@ return s;
 }
 }
 public class Main {
-B s=new B();
-System.out.println(s.meth());
+    public static void main(String[] args) {
+        B s=new B();
+        System.out.println(s.meth());
+    }
+
 }
